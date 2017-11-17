@@ -76,8 +76,10 @@ class TIndividuo
       //Cria um novo indivíduo
       void novo ();
       //Cria um novo indivíduo a partir de um vetor de genes
+
       void novo (vector<TGene *> genes);
 	    //Cria um novo individuo a partir da tabela de conversão
+
       void novo (vector<TTipoConversao> genes, int extraPadrao);
 
       string toString ();
